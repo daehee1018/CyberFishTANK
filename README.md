@@ -18,8 +18,11 @@ chore: 빌드 스크립트 수정, 패키지 매니저 설정 등 기타 변경�
   - 비전 기반 이상 행동 감지 및 섭식/활동량 기반 건강 지표화
   - 수질 센서 + 시계열 모델(LSTM 등)을 통한 수질 이상 예측
   - 디지털 트윈(3D 어항) 상에서 실시간 상태 시각화
+## 3. 폴더 구조
 
- hardware/        # 센서, ESP32 코드, 회로도
+```bash
+.
+├── hardware/        # 센서, ESP32 코드, 회로도
 ├── edge_vision/     # YOLO, 추적, 이상행동 분석
 ├── backend/         # FastAPI, DB, Health Index 계산
 ├── digital_twin/    # Unity 또는 웹 3D
